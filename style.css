@@ -1,0 +1,164 @@
+.container {
+    width: 100vw;
+    text-align: center;
+}
+
+.hero {
+    margin: 5px auto;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+    width: 81%;
+    height: 70vh;
+    transition: cubic-bezier(0.05, 0.7, 0.1, 1.0) 3s;
+}
+
+.hero:hover {
+    height: 80vh;
+    border-radius: 80px;
+}
+
+.intro {
+    z-index: 4;
+    text-align: left;
+    position: absolute;
+    top: 80%;
+    left: 38%;
+    transform: translate( -50% , -50%);
+}
+
+.intro > h1 {
+    margin: 0;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.intro > p {
+    margin: 0;
+}
+
+.hero_img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: cubic-bezier(0.05, 0.7, 0.1, 1.0) 3s;
+}
+
+.hero:hover .hero_img{
+    width: 110%;
+    height: 110%;
+}
+
+.abt {
+    text-align: left;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.AI {
+margin: 0 auto;
+width: 80vw;
+text-align: center;
+}
+
+
+.AI_abt {
+display: inline-block;
+top: 50%;
+transform: translate(0%, -50%);
+width: 45vw;
+text-align: left;
+z-index: 5;
+transition: cubic-bezier(0.05, 0.7, 0.1, 1.0) 2s;
+}
+
+.AI_div:hover .AI_abt {
+width: 50vw;
+}
+
+.AI_img_frame {
+position: relative;
+display: inline-block;
+border-radius: 20px;
+width: 20vw;
+height: 20vw;
+object-fit: cover;
+overflow: hidden;
+text-align: center;
+margin: 20px;
+transition: cubic-bezier(0.05, 0.7, 0.1, 1.0) 2s;
+}
+
+.AI_div:hover .AI_img_frame{
+width: 22vw;
+height: 24vw;
+}
+
+
+.AI_img {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: cubic-bezier(0.05, 0.7, 0.1, 1.0) 2s;
+}
+
+.AI_div:hover .AI_img {
+width: 105%;
+height: 120%;
+}
+
+.meh > img{
+    width: 20vw;
+}
+
+
+.newsletter {
+    padding: 1px;
+    border: 0.5px solid #000000;
+    border-radius: 20px;
+    z-index: 20005;
+    margin: 10px;
+    position: fixed;
+    background-color: rgba(127, 127, 127, 0.2);
+    backdrop-filter: blur(20px);
+    left: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: -6px 8px 42px -10px rgba(0, 0, 0, 0.9);
+    transition: cubic-bezier(0.05, 0.7, 0.1, 1.0) 1s;
+    
+}
+
+.newsletter:hover {
+    box-shadow: -6px 8px 42px 10px rgba(0, 0, 0, 0.9);
+    border-radius: 30px;
+    transition: cubic-bezier(0.05, 0.7, 0.1, 1.0) 2s;
+}
+
+
+
+.brain {
+    width: 4vw;
+    margin: 5px;
+    transition: cubic-bezier(0.05, 0.7, 0.1, 1.0) 1s;
+}
+
+.newsletter:hover .brain {
+    width: 4.25vw;
+}
+
+.newsletter > p {
+    margin: 5px;
+    font-size: large;
+}

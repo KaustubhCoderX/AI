@@ -81,10 +81,6 @@ transition: cubic-bezier(0.05, 0.7, 0.1, 1.0) 2s;
 width: 50vw;
 }
 
-.AI_div:hover {
-    cursor: none;
-}
-
 .AI_img_frame {
 position: relative;
 display: inline-block;
@@ -101,7 +97,7 @@ transition: cubic-bezier(0.05, 0.7, 0.1, 1.0) 2s;
 .AI_div:hover .AI_img_frame{
 width: 22vw;
 height: 24vw;
-border-radius: 30px;
+border-radius: 10px;
 }
 
 
